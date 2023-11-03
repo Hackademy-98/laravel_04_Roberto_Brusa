@@ -1,0 +1,9 @@
+.img1{
+    aspect-ratio: 9/14;
+    object-fit: cover;
+    width: 100%;
+}
+
+.nav-custom{
+    background-color: aquamarine;
+}

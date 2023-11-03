@@ -1,0 +1,9 @@
+<x-layout>
+    <x-navbar/>
+    <h1>ciao</h1>
+    @if(session()->has('success'))
+        <div>
+            {{session('success')}}
+        </div>
+    @endif
+</x-layout>
